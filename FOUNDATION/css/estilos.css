@@ -1,0 +1,144 @@
+body
+{
+  background: url(../IMG/BG2.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 30px;
+}
+
+#Titulo
+{
+	font-size: 32px;
+}
+#Eslogan
+{
+	font-size: 15px;
+	float: right;
+	color: green;
+}
+#UNO
+{
+padding: 10px;
+}
+#UNOA
+{
+background-color:rgba(0,0,0,0);
+}
+.container
+{
+	background-color:rgba(0,230,233,0.7);
+}
+/////***BUSCADOR***/////
+
+.wrap{
+	margin: auto;
+	width: 90%;
+	max-width: 1000px;
+}
+
+.wrap p{
+font-size: 18px;}
+.header-top{
+	width: 100%;
+}
+
+.navegacion{
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	padding:12px 0;
+}
+
+input[type="search"]{
+	padding: 10px;
+	padding-right: 35px;
+	border: 1px solid;
+}
+
+.search{
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	background: #fff;
+	padding:0 10px;
+	padding-bottom: 5px;
+	max-height: 85%;
+	overflow-x: hidden;
+	display: none;
+}
+
+.search-table{
+	width: 100%;
+}
+
+tbody tr td{
+	width: 100%;
+}
+
+tbody tr td a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #737373;
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding: 20px 0;
+	padding-left: 20px;
+	border: 2px solid #fff;
+}
+
+tbody tr td a:hover{
+	border: 2px solid #378FD9;
+}
+
+.search::-webkit-scrollbar{ 
+	background:rgba(0,0,0,0);  
+}
+
+.search::-webkit-scrollbar-button{
+ 	background:#C1C1C1;  
+}
+
+.search::-webkit-scrollbar-thumb{ 
+	background:#C1C1C1; 
+}
+
+.dataTables_length,
+.dataTables_filter,
+.dataTables_info,
+.dataTables_paginate {
+	display: none;
+}
+.is-active
+{
+	border: 1px solid;
+}
+#favoritos
+{
+	padding: 10px;
+}
+#menu
+{
+	padding: 10px;
+}
+#historial
+{
+	padding: 10px;
+}
+#derecha
+{
+	padding: 10px;
+}
+
+
+#pollo
+{
+	background-color: #ABEBC6;
+
+}
+@media (max-width: 360px) 
+{
+iframe { width: 275px;}
+}
+
+

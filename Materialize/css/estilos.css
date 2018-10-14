@@ -1,0 +1,52 @@
+body
+{
+  background: url(../img/Bogota.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 30px;
+}
+#LOGO{
+height: 120px;
+width: 90%;
+padding: 5px;
+border-radius: 100px;
+}
+#UNO
+{
+background-color: rgba(246, 250, 0, 0.2);
+border-radius: 10px;
+}
+#TRES
+{
+	background-color: rgba(0, 0, 130, 0.3);
+}
+#CENTRAL
+{
+height:50vh;
+}
+#CUATRO
+{
+	background-color:rgba(215, 44, 44, 0.2);
+}
+#CINCO
+{
+	background-color:rgba(215, 44, 44, 0.2);
+}
+#SEIS
+{
+background-color:rgba(215, 44, 44, 0.2);
+}
+#galery
+{
+height:30vh;
+}
+#bog
+{
+height:20vh;
+border-radius: 50%;
+background-color:rgba(215, 44, 44, 0.2)
+}
+#img
+{
+background-color:rgba(215, 44, 44, 0.1)
+}
